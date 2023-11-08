@@ -48,7 +48,7 @@ struct ContentView: View {
             }
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Toggle Favorites") {
+                    Button("Favorites") {
                         controller.showFavoritesOnly.toggle()
                     }
                 }

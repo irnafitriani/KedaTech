@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2ADADF172AFB1D62003D1003 /* KedaTechApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADADF162AFB1D62003D1003 /* KedaTechApp.swift */; };
+		2ADADF192AFB1D62003D1003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADADF182AFB1D62003D1003 /* ContentView.swift */; };
+		2ADADF1B2AFB1D63003D1003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ADADF1A2AFB1D63003D1003 /* Assets.xcassets */; };
+		2ADADF1E2AFB1D63003D1003 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ADADF1D2AFB1D63003D1003 /* Preview Assets.xcassets */; };
+		2ADADF282AFB1D64003D1003 /* KedaTechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADADF272AFB1D64003D1003 /* KedaTechTests.swift */; };
+		2ADADF422AFB1F46003D1003 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADADF412AFB1F46003D1003 /* Product.swift */; };
+		2ADADF452AFB2434003D1003 /* ProductController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADADF442AFB2433003D1003 /* ProductController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2ADADF242AFB1D64003D1003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ADADF0B2AFB1D62003D1003 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ADADF122AFB1D62003D1003;
+			remoteInfo = KedaTech;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2ADADF132AFB1D62003D1003 /* KedaTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KedaTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ADADF162AFB1D62003D1003 /* KedaTechApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KedaTechApp.swift; sourceTree = "<group>"; };
+		2ADADF182AFB1D62003D1003 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2ADADF1A2AFB1D63003D1003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2ADADF1D2AFB1D63003D1003 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2ADADF232AFB1D64003D1003 /* KedaTechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KedaTechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ADADF272AFB1D64003D1003 /* KedaTechTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KedaTechTests.swift; sourceTree = "<group>"; };
+		2ADADF412AFB1F46003D1003 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		2ADADF442AFB2433003D1003 /* ProductController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2ADADF102AFB1D62003D1003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ADADF202AFB1D64003D1003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ADADF0A2AFB1D62003D1003 = {
+			isa = PBXGroup;
+			children = (
+				2ADADF152AFB1D62003D1003 /* KedaTech */,
+				2ADADF262AFB1D64003D1003 /* KedaTechTests */,
+				2ADADF142AFB1D62003D1003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2ADADF142AFB1D62003D1003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ADADF132AFB1D62003D1003 /* KedaTech.app */,
+				2ADADF232AFB1D64003D1003 /* KedaTechTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2ADADF152AFB1D62003D1003 /* KedaTech */ = {
+			isa = PBXGroup;
+			children = (
+				2ADADF402AFB1F24003D1003 /* Model */,
+				2ADADF162AFB1D62003D1003 /* KedaTechApp.swift */,
+				2ADADF462AFB30F1003D1003 /* View */,
+				2ADADF432AFB2418003D1003 /* Controller */,
+				2ADADF1A2AFB1D63003D1003 /* Assets.xcassets */,
+				2ADADF1C2AFB1D63003D1003 /* Preview Content */,
+			);
+			path = KedaTech;
+			sourceTree = "<group>";
+		};
+		2ADADF1C2AFB1D63003D1003 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2ADADF1D2AFB1D63003D1003 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2ADADF262AFB1D64003D1003 /* KedaTechTests */ = {
+			isa = PBXGroup;
+			children = (
+				2ADADF272AFB1D64003D1003 /* KedaTechTests.swift */,
+			);
+			path = KedaTechTests;
+			sourceTree = "<group>";
+		};
+		2ADADF402AFB1F24003D1003 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2ADADF412AFB1F46003D1003 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2ADADF432AFB2418003D1003 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2ADADF442AFB2433003D1003 /* ProductController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2ADADF462AFB30F1003D1003 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2ADADF182AFB1D62003D1003 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2ADADF122AFB1D62003D1003 /* KedaTech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ADADF372AFB1D64003D1003 /* Build configuration list for PBXNativeTarget "KedaTech" */;
+			buildPhases = (
+				2ADADF0F2AFB1D62003D1003 /* Sources */,
+				2ADADF102AFB1D62003D1003 /* Frameworks */,
+				2ADADF112AFB1D62003D1003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KedaTech;
+			productName = KedaTech;
+			productReference = 2ADADF132AFB1D62003D1003 /* KedaTech.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2ADADF222AFB1D64003D1003 /* KedaTechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ADADF3A2AFB1D64003D1003 /* Build configuration list for PBXNativeTarget "KedaTechTests" */;
+			buildPhases = (
+				2ADADF1F2AFB1D64003D1003 /* Sources */,
+				2ADADF202AFB1D64003D1003 /* Frameworks */,
+				2ADADF212AFB1D64003D1003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ADADF252AFB1D64003D1003 /* PBXTargetDependency */,
+			);
+			name = KedaTechTests;
+			productName = KedaTechTests;
+			productReference = 2ADADF232AFB1D64003D1003 /* KedaTechTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2ADADF0B2AFB1D62003D1003 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2ADADF122AFB1D62003D1003 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					2ADADF222AFB1D64003D1003 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2ADADF122AFB1D62003D1003;
+					};
+				};
+			};
+			buildConfigurationList = 2ADADF0E2AFB1D62003D1003 /* Build configuration list for PBXProject "KedaTech" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2ADADF0A2AFB1D62003D1003;
+			productRefGroup = 2ADADF142AFB1D62003D1003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2ADADF122AFB1D62003D1003 /* KedaTech */,
+				2ADADF222AFB1D64003D1003 /* KedaTechTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ADADF112AFB1D62003D1003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADADF1E2AFB1D63003D1003 /* Preview Assets.xcassets in Resources */,
+				2ADADF1B2AFB1D63003D1003 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ADADF212AFB1D64003D1003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ADADF0F2AFB1D62003D1003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADADF192AFB1D62003D1003 /* ContentView.swift in Sources */,
+				2ADADF172AFB1D62003D1003 /* KedaTechApp.swift in Sources */,
+				2ADADF422AFB1F46003D1003 /* Product.swift in Sources */,
+				2ADADF452AFB2434003D1003 /* ProductController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ADADF1F2AFB1D64003D1003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADADF282AFB1D64003D1003 /* KedaTechTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2ADADF252AFB1D64003D1003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ADADF122AFB1D62003D1003 /* KedaTech */;
+			targetProxy = 2ADADF242AFB1D64003D1003 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2ADADF352AFB1D64003D1003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2ADADF362AFB1D64003D1003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2ADADF382AFB1D64003D1003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KedaTech/Preview Content\"";
+				DEVELOPMENT_TEAM = W4GAJGK6F9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = irna.KedaTech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2ADADF392AFB1D64003D1003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KedaTech/Preview Content\"";
+				DEVELOPMENT_TEAM = W4GAJGK6F9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = irna.KedaTech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2ADADF3B2AFB1D64003D1003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4GAJGK6F9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = irna.KedaTechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KedaTech.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KedaTech";
+			};
+			name = Debug;
+		};
+		2ADADF3C2AFB1D64003D1003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4GAJGK6F9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = irna.KedaTechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KedaTech.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KedaTech";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ADADF0E2AFB1D62003D1003 /* Build configuration list for PBXProject "KedaTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ADADF352AFB1D64003D1003 /* Debug */,
+				2ADADF362AFB1D64003D1003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ADADF372AFB1D64003D1003 /* Build configuration list for PBXNativeTarget "KedaTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ADADF382AFB1D64003D1003 /* Debug */,
+				2ADADF392AFB1D64003D1003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ADADF3A2AFB1D64003D1003 /* Build configuration list for PBXNativeTarget "KedaTechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ADADF3B2AFB1D64003D1003 /* Debug */,
+				2ADADF3C2AFB1D64003D1003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2ADADF0B2AFB1D62003D1003 /* Project object */;
+}
